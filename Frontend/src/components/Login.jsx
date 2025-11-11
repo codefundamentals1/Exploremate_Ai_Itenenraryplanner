@@ -1,6 +1,6 @@
 import React,{useState} from 'react'
 // import {Facebook,GitHub,Google} from '@mui/icons-material'
-import { FaFacebook ,FaGithub, FaGoogle } from "react-icons/fa6";
+import { FaFacebook,FaGoogle } from "react-icons/fa6";
 import loginBack from "../images/loginback.png"
 
 
@@ -15,6 +15,8 @@ const Login = () => {
   const [registerPassword,setRegisterPassword] = useState("");
   const [registerName,setRegisterName] = useState("");
   const [registerAvatar,setRegisterAvatar] = useState("");
+
+  console.log("email is" +loginEmail)
   
   const LoginForm = () => {
     return(

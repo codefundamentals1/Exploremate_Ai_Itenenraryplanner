@@ -28,13 +28,6 @@ const router = createBrowserRouter(
       <Route path='sidebar' element={<Sidebar />} />
       <Route path='main' element={<Newtrip />} />
       <Route path='main/details' element={<Mainpage />} />
-    
-      
-
-
-     
-
-
    </Route>
 
 

@@ -26,8 +26,7 @@ const Citiescont = () => {
 
       <div className=" m-40 h-[300px] flex  justify-center items-center  ">
         {cities.map((city, index) => (
-          // <div key={city.id}>
-          //   <h3>{city.cityname}</h3>
+        
          
             <div  key={city.id} className="text-blue-500 ">
               <button
